@@ -13,14 +13,12 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "devDependencies": {
-    "cordova-ios": "^6.2.0",
-    "cordova-plugin-inappbrowser": "^5.0.0",
-    "cordova-plugin-webview-proxy": "file:../../cordova-plugin-webview-proxy",
-    "cordova-plugin-whitelist": "^1.3.5"
+    "cordova-ios": "file:../../cordova-ios-8.0.0-dev.tgz",
+    "cordova-plugin-inappbrowser": "^6.0.0",
+    "cordova-plugin-webview-proxy": "^0.0.5"
   },
   "cordova": {
     "plugins": {
-      "cordova-plugin-whitelist": {},
       "cordova-plugin-webview-proxy": {},
       "cordova-plugin-inappbrowser": {}
     },
